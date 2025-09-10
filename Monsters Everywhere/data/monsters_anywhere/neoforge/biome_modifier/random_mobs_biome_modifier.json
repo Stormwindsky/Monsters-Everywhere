@@ -1,0 +1,21 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "crimson_forest",
+    "basalt_deltas",
+    "nether_wastes",
+    "soul_sand_valley",
+    "warped_forest",
+    "the_end",
+    "small_end_islands",
+    "end_midlands",
+    "end_highlands",
+    "end_barrens"
+  ],
+  "spawners": {
+    "type": "monsters_anywhere:random_mobs",
+    "weight": 3,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}
