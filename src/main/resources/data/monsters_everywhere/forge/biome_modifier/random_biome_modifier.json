@@ -1,0 +1,16 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "the_end",
+    "small_end_islands",
+    "end_midlands",
+    "end_highlands",
+    "end_barrens"
+  ],
+  "spawners": {
+    "type": "monsters_everywhere:random",
+    "weight": 100,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

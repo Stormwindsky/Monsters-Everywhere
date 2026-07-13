@@ -1,0 +1,16 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "nether_wastes",
+    "crimson_forest",
+    "soul_sand_valley",
+    "warped_forest",
+    "basalt_deltas"
+  ],
+  "spawners": {
+    "type": "monsters_everywhere:random_nether",
+    "weight": 100,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

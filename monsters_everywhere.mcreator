@@ -1,0 +1,134 @@
+{
+  "mod_elements": [
+    {
+      "name": "Random",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monsterseverywhere/entity/RandomEntity.java",
+          "src/main/resources/data/monsters_everywhere/forge/biome_modifier/random_biome_modifier.json",
+          "src/main/java/net/mcreator/monsterseverywhere/client/renderer/RandomRenderer.java",
+          "src/main/resources/assets/monsters_everywhere/models/item/random_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "RandomOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monsterseverywhere/procedures/RandomOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RandomNether",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_nether",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monsterseverywhere/entity/RandomNetherEntity.java",
+          "src/main/resources/assets/monsters_everywhere/models/item/random_nether_spawn_egg.json",
+          "src/main/java/net/mcreator/monsterseverywhere/client/renderer/RandomNetherRenderer.java",
+          "src/main/resources/data/monsters_everywhere/forge/biome_modifier/random_nether_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "RandomNetherOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_nether_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/monsterseverywhere/procedures/RandomNetherOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "entity.monsters_everywhere.random": "Random (End Version)",
+      "item.monsters_everywhere.random_spawn_egg": "Random (End Version) Spawn Egg",
+      "entity.monsters_everywhere.random_nether": "Random (Nether Version)",
+      "item.monsters_everywhere.random_nether_spawn_egg": "Random (Nether Version) Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "monsters_everywhere",
+    "modName": "Monsters Everywhere",
+    "version": "1.0.0",
+    "author": "stormwindsky, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.monsterseverywhere"
+  },
+  "mcreatorVersion": 202400452410
+}
