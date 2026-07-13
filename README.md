@@ -21,4 +21,8 @@ Of course, you don't even have to ask me, & also no need to add me as a credit b
 
 # You can Download Here:
 
-Coming Soon
+Here: https://modrinth.com/mod/monsters-everywhere
+
+& also here: https://www.curseforge.com/minecraft/mc-mods/monsters-everywhere
+
+&... also here: https://gamejolt.com/games/ME/1083814
